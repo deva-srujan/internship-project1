@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>VoIP Video Calling</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>VoIP Video Calling System</h1>
+
+        <video id="video" autoplay muted></video>
+
+        <br>
+
+        <button onclick="startCall()">
+            Start Video Call
+        </button>
+
+        <button onclick="shareScreen()">
+            Share Screen
+        </button>
+
+        <button onclick="startRecording()">
+            Start Recording
+        </button>
+
+        <button onclick="stopRecording()">
+            Stop Recording
+        </button>
+
+        <a id="downloadLink" style="display:none">
+            Download Recording
+        </a>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Video Download System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Video Download Platform</h1>
+
+    <div class="video-box">
+
+        <h2>Sample Video</h2>
+
+        <video width="400" controls>
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+</video>
+
+        <br>
+
+        <button onclick="downloadVideo()">Download Video</button>
+
+    </div>
+
+    <div class="premium-box">
+
+        <h2>Premium Plan</h2>
+
+        <p>Free users can download only 1 video/day</p>
+
+        <button onclick="upgradePremium()">
+            Upgrade to Premium
+        </button>
+
+    </div>
+
+    <div class="downloads">
+
+        <h2>Downloads Section</h2>
+
+        <ul id="downloadList"></ul>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
